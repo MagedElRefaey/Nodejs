@@ -1,0 +1,19 @@
+const path = require('path')
+
+console.log(path.sep)
+
+const filepath = path.join('\\content\\','\\subfolder\\','\\test\\')
+
+// I replace the backslash with forward ones using the replace function
+
+const reversed=filepath.replace(/\\/g,"/")
+console.log(reversed)
+
+const base = path.basename(filepath)
+
+console.log(base)
+
+const absolute = path.resolve(__dirname,'content','subfolder','test')
+const reversed_absolute = absolute.replace(/\\/g,"/")
+
+console.log(absolute)

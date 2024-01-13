@@ -1,0 +1,1 @@
+result of asynchronous module : do you copy me, yes, i DO

@@ -1,0 +1,10 @@
+// dirname allow us to get the directory path
+
+//console.log("comments")
+
+console.log(__dirname)
+
+
+setInterval(() => {console.log('hello world')} ,1000)
+// Set interval allow us to create a loop of excuted commands with setting the exact time in milliseconds
+

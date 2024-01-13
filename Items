@@ -1,0 +1,8 @@
+const items = ['key', 'lock']
+const person ={
+    name:'ali'
+
+
+}
+
+module.exports.singleperson=person

@@ -1,0 +1,8 @@
+// local
+const address = 'local'
+//global
+const maged = 'maged'
+const ahmed = 'ahmed'
+const mohamed = 'mohamed'
+
+module.exports = {maged, ahmed, mohamed}

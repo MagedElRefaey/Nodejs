@@ -1,0 +1,5 @@
+const Iam = (name) => {
+    console.log(`Hello, Iam ${name}`)
+}
+
+module.exports = Iam

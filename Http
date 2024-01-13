@@ -1,0 +1,21 @@
+const http = require('http')
+const server = http.createServer((req,res)=>{
+    //console.log(req)
+    if(req.url === '/'){
+        res.end('welcome to our homepage')
+    }
+    if(req.url === '/about'){
+        res.end('this page is about us')
+    }
+    res.end(`
+        <h1>you have entered a wrong adress</h1>
+        <p>we can't take you to that adress you are asking about</p>
+        <a href="/">back home</a>
+
+    `)
+
+    res.write('Welcome to our homepage')
+    res.end()
+})
+
+server.listen(5000)

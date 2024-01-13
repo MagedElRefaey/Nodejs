@@ -1,0 +1,21 @@
+const os = require ('os')
+//const { getgid } = require('process')
+
+// this allow us to get user info 
+const user = os.userInfo()
+console.log(user)
+
+//const time=require('./sum')
+
+console.log(`system uptime is ${os.uptime()} seconds`)
+
+const current = {
+
+    name:os.type(),
+    release: os.release(),
+    total: os.totalmem(),
+    free: os.freemem(),
+
+}
+console.log(current)
+
